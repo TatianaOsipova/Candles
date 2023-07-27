@@ -11,7 +11,6 @@ html {
 body {
     color: #000;
     font-family: 'Comfortaa', cursive;
-    /* font-family: 'Yeseva One', cursive; */
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -27,6 +26,13 @@ ul {
     list-style: none;
 }
 
+button {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1180px;
     padding: 0 10px;
@@ -37,11 +43,8 @@ ul {
 .menu__btn {
     display: none;
     width: 30px;
-    height: 25px;
-    border: none;
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
+    height: 25px;    
+    background-color: transparent;    
     flex-direction: column;
     justify-content: space-between;
 }
@@ -89,6 +92,53 @@ ul {
 }
 
 /* header end */
+
+/* main start */
+
+.main{
+    background-color: #FFF8F3;
+
+}
+
+.top{    
+    padding: 40px 0 150px;
+}
+
+.top__inner{
+    position: relative;
+}
+
+.top__content{
+    width: 370px;
+    padding: 150px 0 250px;
+}
+
+.top__title{
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.top__text{
+    margin-bottom: 48px;
+}
+
+.top__buy{
+    padding: 18px 54px;
+    background: #FFBD59;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.top__img{
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+/* main end */
 
 /* footer start */
 
