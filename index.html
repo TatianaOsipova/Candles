@@ -66,15 +66,19 @@
     <section class="top">
       <div class="container top__inner">
         <div class="top__content">
-          <h3 class="top__title">Create an atmosphere of coziness and harmony!</h3>
+          <h3 class="top__title">The comfort and the harmony!</h3>
+          <!-- <h3 class="top__title">Створіть атмосферу затишку та гармонії!</h3> -->
           <p class="top__text">Create a special atmosphere in your home with our environmentally friendly and quality
-            products with 100% natural soy wax.
+            products with 100% natural soy wax.☯☯☯☯☯☯☯
           </p>
           <button class="top__buy">Buy</button>
         </div>
 
         <picture class="top__img">
-          <img src="images/top-l.png" alt="Image of candles">
+          <source srcset="images/top-s.png" alt="Image of candles" media="(max-width: 360px)">
+          <source srcset="images/top-m.png" alt="Image of candles" media="(max-width: 480px)">
+
+          <img class="top__img-l" src="images/top-l.png" alt="Image of candles">
         </picture>
       </div>
     </section>
