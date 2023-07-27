@@ -43,8 +43,8 @@ button {
 .menu__btn {
     display: none;
     width: 30px;
-    height: 25px;    
-    background-color: transparent;    
+    height: 25px;
+    background-color: transparent;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -94,37 +94,38 @@ button {
 /* header end */
 
 /* main start */
+/* section top start */
 
-.main{
+.main {
     background-color: #FFF8F3;
     overflow-x: clip;
 
 }
 
-.top{    
+.top {
     padding: 40px 0 150px;
 }
 
-.top__inner{
+.top__inner {
     position: relative;
 }
 
-.top__content{
+.top__content {
     width: 370px;
     padding: 150px 0 250px;
 }
 
-.top__title{
+.top__title {
     font-family: 'Yeseva One', cursive;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.top__text{
+.top__text {
     margin-bottom: 48px;
 }
 
-.top__buy{
+.top__buy {
     padding: 18px 54px;
     background: #FFBD59;
     font-family: 'Comfortaa', cursive;
@@ -132,11 +133,79 @@ button {
     font-weight: 600;
 }
 
-.top__img{
+.top__img {
     position: absolute;
     top: 0;
     left: 240px;
 }
+
+/* section top end */
+
+/* section about start */
+
+.about {
+    background-color: #A5978E;
+    padding: 50px;
+    color: #FAFAFA;
+}
+
+.about__inner {
+    display: flex;
+    align-items: center;
+}
+
+.about__content {
+    min-width: 370px;
+}
+
+.about__title {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.about__text {
+    margin-bottom: 15px;
+}
+
+.about__list {
+    position: relative;
+    display: flex;
+    flex-basis: 930px;
+    padding-left: 110px;
+    padding-bottom: 48px;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.about__list::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url(../images/about-decor.png);
+    width: 22px;
+    height: 30px;
+}
+
+.about__list::after {
+    content: '';
+    position: absolute;
+    left: 22px;
+    bottom: 13px;
+    background-color: #7B6152;
+    width: 1000%;
+    height: 1px;
+}
+
+.about__item-img {
+    margin-bottom: 10px;
+}
+
+.about__item-text {
+    font-size: 11px;
+}
+
+/* section about end */
 
 /* main end */
 
@@ -177,20 +246,20 @@ button {
         padding: 0 20px;
     }
 
-    .top__content{
+    .top__content {
         width: 333px;
         padding: 95px 0 70px;
     }
 
-    .top__text{
+    .top__text {
         margin-bottom: 30px;
     }
 
-    .top__img-l{
+    .top__img-l {
         width: 655px;
     }
 
-    .top__img{
+    .top__img {
         left: 300px;
     }
 }
@@ -228,21 +297,21 @@ button {
         background-size: cover;
     }
 
-    .top__content{
+    .top__content {
         width: 230px;
     }
 
-    .top__title{
+    .top__title {
         font-size: 20px;
         margin-bottom: 20px;
     }
 
-    .top__text{
+    .top__text {
         font-size: 10px;
         margin-bottom: 20px;
     }
 
-    .top__img{
+    .top__img {
         left: 180px;
     }
 }
@@ -300,56 +369,56 @@ button {
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 480px) {
     .top {
         padding: 30px 0 50px;
     }
-    
-    .top__content{
+
+    .top__content {
         width: 180px;
     }
 
-    .top__title{
+    .top__title {
         font-size: 15px;
         margin-bottom: 15px;
     }
 
-    .top__text{
+    .top__text {
         font-size: 8px;
         margin-bottom: 15px;
     }
 
-    .top__buy{
+    .top__buy {
         font-size: 10px;
         padding: 14px 41px;
     }
 
-    .top__img-l{
+    .top__img-l {
         width: 309px;
-        left: 167px;         
+        left: 167px;
     }
 }
 
-@media(max-width: 360px){
-    .top__content{
+@media(max-width: 360px) {
+    .top__content {
         width: 200px;
         padding: 20px 0 0;
     }
 
-    .top__title{
+    .top__title {
         font-size: 18px;
     }
 
-    .top__text{
+    .top__text {
         font-size: 10px;
     }
 
-    .top__img{
+    .top__img {
         left: auto;
         right: 0;
     }
 
-    .top__img-l{
+    .top__img-l {
         width: 185px;
     }
 
