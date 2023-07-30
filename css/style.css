@@ -394,9 +394,85 @@ button {
     font-size: 10px;
 }
 
-
-
 /* section team end */
+
+/* section feedback start */
+
+.feedback__content{
+    padding-bottom: 110px;
+}
+
+.feedback__descr{
+    margin-right: 20px;
+}
+
+.feedback__item{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 0 16px;
+    align-items: center;
+}
+
+.feedback__item-video{
+    position: relative;
+}
+
+.feedback__item-videobtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.feedback__item-sociallink{
+    margin-bottom: 12px;
+}
+
+.feedback__item-name{
+    font-family: 'Yeseva One', cursive;
+    font-size: 16px;
+    margin-bottom: 15px;    
+}
+
+.feedback__item-text{
+    margin-bottom: 15px;
+}
+
+.feedback__item-content{
+    padding-bottom: 70px;
+}
+
+.feedback__item-btn{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.feedback__slider{
+    width: 760px;
+    overflow: hidden;
+}
+.feedback__content .swiper-pagination{
+    bottom: 50px;    
+}
+
+.swiper-pagination-bullet{
+    background-color: #BEA495;
+    width: 53px;
+    height: 4px;
+    border-radius: 0;
+    background-repeat: 0;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #7B6152;
+}
+
+
+
+/* section feedback end */
 
 /* main end */
 
@@ -444,10 +520,6 @@ button {
     .products__content {
         gap: 50px 30px;
     }
-
-
-
-
 }
 
 @media(max-width: 1000px) {
@@ -715,10 +787,6 @@ button {
     .team__item-descr {
         font-size: 7px;
     }
-
-
-
-
 }
 
 @media(max-width: 640px) {
