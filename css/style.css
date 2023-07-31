@@ -453,6 +453,7 @@ button {
     width: 760px;
     overflow: hidden;
 }
+
 .feedback__content .swiper-pagination{
     bottom: 50px;    
 }
@@ -470,9 +471,31 @@ button {
     background-color: #7B6152;
 }
 
-
-
 /* section feedback end */
+
+/* section certificates start */
+
+.certificates__slider{
+    width: 1135px;
+    overflow: hidden;
+}
+
+.certificates__descr{
+    margin-right: 20px;
+}
+
+.certificates__content{
+    padding-bottom: 114px;
+}
+
+.certificates__content .swiper-pagination{
+    bottom: 60px;    
+    text-align: left;
+}
+
+
+
+/* section certificates end */
 
 /* main end */
 
