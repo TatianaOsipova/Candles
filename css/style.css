@@ -43,6 +43,7 @@ button {
     margin-bottom: 15px;
     font-size: 40px;
     font-weight: 400;
+    font-family: 'Yeseva One', cursive;
 }
 
 .section {
@@ -398,26 +399,26 @@ button {
 
 /* section feedback start */
 
-.feedback__content{
+.feedback__content {
     padding-bottom: 110px;
 }
 
-.feedback__descr{
+.feedback__descr {
     margin-right: 20px;
 }
 
-.feedback__item{
+.feedback__item {
     display: grid;
     grid-template-columns: auto auto;
     gap: 0 16px;
     align-items: center;
 }
 
-.feedback__item-video{
+.feedback__item-video {
     position: relative;
 }
 
-.feedback__item-videobtn{
+.feedback__item-videobtn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -425,40 +426,40 @@ button {
     background: transparent;
 }
 
-.feedback__item-sociallink{
+.feedback__item-sociallink {
     margin-bottom: 12px;
 }
 
-.feedback__item-name{
+.feedback__item-name {
     font-family: 'Yeseva One', cursive;
     font-size: 16px;
-    margin-bottom: 15px;    
-}
-
-.feedback__item-text{
     margin-bottom: 15px;
 }
 
-.feedback__item-content{
+.feedback__item-text {
+    margin-bottom: 15px;
+}
+
+.feedback__item-content {
     padding-bottom: 70px;
 }
 
-.feedback__item-btn{
+.feedback__item-btn {
     position: absolute;
     right: 0;
     bottom: 10px;
 }
 
-.feedback__slider{
+.feedback__slider {
     width: 760px;
     overflow: hidden;
 }
 
-.feedback__content .swiper-pagination{
-    bottom: 50px;    
+.feedback__content .swiper-pagination {
+    bottom: 50px;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
     background-color: #BEA495;
     width: 53px;
     height: 4px;
@@ -467,7 +468,7 @@ button {
     opacity: 1;
 }
 
-.swiper-pagination-bullet-active{
+.swiper-pagination-bullet-active {
     background-color: #7B6152;
 }
 
@@ -475,27 +476,60 @@ button {
 
 /* section certificates start */
 
-.certificates__slider{
+.certificates__slider {
     width: 1135px;
     overflow: hidden;
 }
 
-.certificates__descr{
+.certificates__descr {
     margin-right: 20px;
 }
 
-.certificates__content{
+.certificates__content {
     padding-bottom: 114px;
 }
 
-.certificates__content .swiper-pagination{
-    bottom: 60px;    
+.certificates__content .swiper-pagination {
+    bottom: 60px;
     text-align: left;
 }
 
-
-
 /* section certificates end */
+
+/* section promo start */
+
+.promo{
+    background-image: url(../images/promo-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 0;
+
+}
+
+.promo__inner{
+    display: flex;
+    align-items: center;
+}
+
+.promo__text{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    color: #fff;
+    padding-left: 56px;
+    max-width: 765px;
+    margin-right: 410px;
+}
+
+.promo__link{
+    color: #272727;
+    background-color: #FFBD59;
+    display: inline-block;
+    padding: 14px 25px 12px;
+
+}
+
+/* section promo end */
 
 /* main end */
 
@@ -596,6 +630,26 @@ button {
         gap: 30px 20px;
     }
 
+    .feedback__inner {
+        grid-template-columns: 260px auto;
+    }
+
+    .feedback__slider {
+        width: 690px;
+    }
+
+    .certificates__content img {
+        width: 280px;
+    }
+
+    .certificates__slider {
+        width: 880px;
+        
+    }
+
+    .certificates__content .swiper-pagination {
+        text-align: center;
+    }
 }
 
 @media(max-width: 980px) {
@@ -810,6 +864,22 @@ button {
     .team__item-descr {
         font-size: 7px;
     }
+
+    .feedback__item-video{
+        width: 200px;
+    }
+
+    .feedback__item-img{
+        width: 200px;
+    }
+
+    .feedback__slider{
+        width: 447px;
+    }
+
+    .feedback__item-content{
+        padding-bottom: 45px;
+    }
 }
 
 @media(max-width: 640px) {
@@ -962,6 +1032,15 @@ button {
         margin-bottom: 50px;
     }
 
+    .certificates__content img{
+        width: 200px;
+    }
+
+    .certificates__slider{
+        width: 415px;
+        margin: 0 auto;
+    }
+
 }
 
 @media(max-width: 404px) {
@@ -1099,4 +1178,37 @@ button {
     .courses__item img {
         width: 255px;
     }
+
+    .feedback__item{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .feedback__slider{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .feedback__item-img{
+        width: 250px;
+        margin: 0 auto 20px;
+    }
+
+    .feedback__item-video{
+        width: 250px;
+    }
+
+    .feedback__item-btn{
+        bottom: 0;
+        margin: 0 auto;
+        left: 0;
+        max-width: 100px;
+
+    }
+
+    .certificates__slider{
+        width: 200px;
+        
+    }
+    
 }
