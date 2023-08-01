@@ -512,7 +512,8 @@ button {
     transition: opacity .3s, max-height .3s;
 }
 
-.accordeon__text ol{
+.accordeon__text ol,
+.accordeon__text p{
     padding: 20px 40px;   
 }
 
