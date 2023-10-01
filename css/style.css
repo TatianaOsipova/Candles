@@ -52,7 +52,6 @@ button {
 
 .section--decor {
     position: relative;
-
 }
 
 .section--decor::before {
@@ -476,12 +475,12 @@ button {
 
 /* section accordeon start */
 
-.accordeon__item{
+.accordeon__item {
     background-color: #fafafa;
     margin-bottom: 10px;
 }
 
-.accordeon__title{
+.accordeon__title {
     font-family: 'Yeseva One', cursive;
     font-size: 16px;
     display: block;
@@ -492,7 +491,7 @@ button {
     text-align: left;
 }
 
-.accordeon__title::after{
+.accordeon__title::after {
     content: '';
     background-image: url(../images/arrow.svg);
     width: 16px;
@@ -502,22 +501,22 @@ button {
     top: 17px
 }
 
-.accordeon__title.accordeon__title--active::after{
+.accordeon__title.accordeon__title--active::after {
     transform: rotate(180deg);
 }
 
-.accordeon__text{
+.accordeon__text {
     opacity: 0;
     max-height: 0;
     transition: opacity .3s, max-height .3s;
 }
 
 .accordeon__text ol,
-.accordeon__text p{
-    padding: 20px 40px;   
+.accordeon__text p {
+    padding: 20px 40px;
 }
 
-.accordeon__text.accordeon__text--visible{
+.accordeon__text.accordeon__text--visible {
     opacity: 1;
 }
 
@@ -1193,7 +1192,7 @@ button {
         padding: 42px 0;
     }
 
-    .contacts{
+    .contacts {
         padding-top: 50px;
     }
 
@@ -1202,7 +1201,7 @@ button {
     }
 
     .form__input::placeholder {
-        font-size: 10px;        
+        font-size: 10px;
     }
 }
 
@@ -1372,7 +1371,7 @@ button {
         width: 200px;
     }
 
-    .promo__text{
+    .promo__text {
         margin-right: 50px;
     }
 
